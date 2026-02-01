@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Saki 🦋</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Georgia", serif;
+      background: linear-gradient(to bottom, #ffe6f0, #fff);
+      color: #333;
+      text-align: center;
+      line-height: 1.8;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.1em;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 30px;
+      background: #ff6fa5;
+      color: white;
+      cursor: pointer;
+      margin: 10px;
+    }
+    button:hover {
+      background: #ff4d94;
+    }
+    .butterflies {
+      font-size: 1.5em;
+      opacity: 0.7;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<section>
+  <h1>For Saki 💖</h1>
+  <p>For my Bug 🦋<br>
+  the one who fluttered into my life<br>
+  and made everything gentler.</p>
+
+  <button onclick="document.getElementById('letter').scrollIntoView({behavior:'smooth'})">
+    Tap softly 🦋💌
+  </button>
+</section>
+
+<section id="letter">
+  <p>
+    Hi my Bug,<br><br>
+
+    Loving you feels like quiet wings in the air —<br>
+    soft, calm, and impossible to ignore.<br><br>
+
+    You make ordinary moments feel lighter.<br>
+    You turn my heavy days into something I can breathe through.<br><br>
+
+    I love the way you exist —<br>
+    effortlessly, sincerely, beautifully you.<br><br>
+
+    I don’t need loud love.<br>
+    I just need <em>you</em>, exactly as you are.<br><br>
+
+    And if I’m honest…<br>
+    every time I think of you, my heart slows down, spikes and smiles.
+  </p>
+</section>
+
+<section class="butterflies">
+  🦋 🦋 🦋
+</section>
+
+<section>
+  <h2>Bug… will you be my Valentine? 💗🦋</h2>
+
+  <button onclick="showSecret()">Yes, always 💕</button>
+  <button onclick="showSecret()">Of course 🥰</button>
+</section>
+
+<section id="secret" class="hidden">
+  <p>
+    There’s something I never say enough…<br><br>
+
+    When I picture comfort, I see you.<br>
+    When I think of home, it looks like you.<br><br>
+
+    Loving you feels easy.<br>
+    Choosing you feels natural.<br><br>
+
+    Thank you for being my safe place, Bug 🦋
+  </p>
+
+  <div class="butterflies">🦋 🦋 🦋</div>
+
+  <h2>Saki 💖</h2>
+  <p>my bug, my Valentine 🦋</p>
+</section>
+
+<script>
+  function showSecret() {
+    document.getElementById("secret").style.display = "block";
+    document.getElementById("secret").scrollIntoView({behavior:'smooth'});
+  }
+</script>
+
+</body>
+</html>
